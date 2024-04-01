@@ -1,0 +1,33 @@
+{% load static %}
+
+<!Doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static '/css/pass_css.css' %}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <title>Course Completed</title>
+</head>
+<body style="margin: 0;">
+<div class="total-content">
+<div class="outer-border" id="invoice">
+  <img class="certificate" src="{% static '/images/Certificate.png'%}" alt="Certificate">
+  <div class="certificate-section">
+    <h1 class="heading">Congratulations</h1>
+    <h1>Completed the Course at <span class="highlight-orange">Blender<span class="highlight-green">.edu</span></span></h1>
+    <p>Download your certificate:</p>    
+    <a href="certificate">
+      <button class="download-button">Download Certificate</button>
+    </a>
+    <br>
+    <a href="final" >
+      <button class="done-button">Done</button>
+    </a>
+  </div>
+</div>
+</body>
+</html>

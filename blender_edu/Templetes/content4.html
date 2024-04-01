@@ -1,0 +1,52 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 4/5</title>
+  <link rel="stylesheet" href="{% static '/css/content_css.css' %}">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <div> <H1 style="color: orange;">Blender<span style="color: green;">.edu</span></H1></div>
+            </div>
+               
+        </div>    
+    </header>  
+    <div>
+        <center>
+            <h1>Lesson 4/5 </h1>
+        </center>
+    </div>
+
+  <div id="video-container">
+    <iframe width="850" height="550" src="https://www.youtube.com/embed/3lqgdqoY83o?si=2tmX1jBE2i2OKNkq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  <div id="topic">
+    <h2 style="margin-top: 20px;">Functions in C Programming</h2>
+    
+  </div>
+  <div id="description">
+    <h4 style="margin-top: -10px;">Description:</h4> 
+  </div>
+  <div style="margin-left: 120px; margin-top: -45px; margin-right: 120px;">
+    <p>Functions in C programming are essential building blocks that facilitate modular and organized code development. A function is a self-contained block of code designed to perform a specific task, promoting code reusability and maintainability. Functions encapsulate functionality, making programs more structured and easier to understand.</p>
+    <p>Function declaration includes the return type, function name, and parameters, specifying the data type and order of inputs the function expects.</p>
+    <p>Parameters allow functions to receive inputs, while the return type specifies the type of value the function sends back to the calling code. Functions can also be void, indicating they do not return any value. This flexibility enables functions to perform diverse tasks, from simple calculations to complex operations.</p>
+    <p>Function prototypes declare the function's signature before its actual implementation, allowing the compiler to recognize and validate the function's usage in the code.
+        Recursion, where a function calls itself, is a powerful concept in C programming. It is employed for solving problems that can be broken down into simpler sub-problems.</p>
+    <p>Understanding scope and lifetime of variables within functions is crucial. Local variables are confined to the function they are declared in, ensuring encapsulation and minimizing naming conflicts.</p>
+  </div>
+
+  <div id="buttons-container">
+    <a href="content3"><button class="button" style="background-color: orange; color: white;" onclick="previousVideo()">Previous</button></a>
+    <a href="content5"><button class="button" style="background-color: green; color: white;" onclick="nextVideo()">Next</button></a>
+  </div>
+
+
+</body>
+</html>

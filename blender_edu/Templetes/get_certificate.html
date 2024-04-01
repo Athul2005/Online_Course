@@ -1,0 +1,36 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Certificate</title>
+    <link rel="stylesheet" href="{% static '/css/certificate_css.css' %}">
+</head>
+
+<body>
+    <header>
+        <h1><strong style="color: orange;">Blender<span style="color: green;">.edu</span></strong></h1>
+        <img src="{% static '/images/tick.png'%}" alt="" height="210px" width="205px">
+        <h4 ><strong style="color: #1DA1F2;">Verifying...</strong></h4>
+        
+        
+    </header>
+    <main>
+
+        <p style="color: #0073E6;">After verifying your profile, certificate will be sent to your email address logged-in account.</p>
+
+        <a href="final">
+            <button id="butt" style="background: #1DA1F2;">Done</button>
+        </a>
+
+    </main>
+    <script src="https://unpkg.com/pdf-lib@1.4.0"></script>
+    <script src="{% static '/js/certificate2.js' %}"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="{% static '/js/certificate1.js' %}"></script>
+</body>
+
+</html>

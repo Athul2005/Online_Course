@@ -1,0 +1,23 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static '/css/quiz_fail_css.css' %}">
+  <script>
+    function retryQuiz() {
+      window.location.href = "quiz";
+    }
+  </script>
+  <title>Quiz Result</title>
+</head>
+<body>
+  <div class="failure-section">
+    <h1>You are Fail!</h1>
+    <p>Better luck next time. Retry the quiz:</p>
+    <button class="retry-button" onclick="retryQuiz()">Retry Quiz</button>
+  </div>
+</body>
+</html>

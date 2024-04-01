@@ -1,0 +1,31 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Preparation</title>
+    <link rel="stylesheet" href="{% static '/css/intro_quiz.css' %}">
+</head>
+<body>
+
+<div class="container">
+    <h1>Are You Ready for the Quiz?</h1>
+
+    <div class="instruction-box">
+        <p>Read the instructions below:</p>
+        <ul>
+            <li>Make sure you understand each question before answering.</li>
+            <li>You can only submit your answers once, so be careful.</li>
+            <li>70% is need to pass the quiz.</li>
+            <li>Total 10 questions.</li>
+            <li>Good luck!</li>
+        </ul>
+    </div>
+
+    <a href="quiz" class="quiz-button">Start Quiz</a>
+</div>
+
+</body>
+</html>

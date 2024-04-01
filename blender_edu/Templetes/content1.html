@@ -1,0 +1,51 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 1/5</title>
+  <link rel="stylesheet" href="{% static '/css/content_css.css' %}">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <div> <H1 style="color: orange;">Blender<span style="color: green;">.edu</span></H1></div>
+            </div>
+               
+        </div>    
+    </header>  
+    <div>
+        <center>
+            <h1>Lesson 1/5 </h1>
+        </center>
+    </div>
+
+  <div id="video-container">
+    <iframe width="850" height="550" src="https://www.youtube.com/embed/dTp0c41XnrQ?si=Fxjqlrp9awrVh3yp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+  </div>
+  <div id="topic">
+    <h2 style="margin-top: 20px;">Basic of C Programming</h2>
+    
+  </div>
+  <div id="description">
+    <h4 style="margin-top: -10px;">Description:</h4> 
+  </div>
+  <div style="margin-left: 120px; margin-top: -45px; margin-right: 120px;">
+    <p>C programming serves as a foundational language with a procedural approach, emphasizing step-by-step execution. Programs are structured around functions, each serving a specific purpose. The main function acts as the entry point, and execution proceeds sequentially unless directed otherwise.</p>
+    <p>Variables play a crucial role, storing data with defined types such as int, float, char, etc. Operators manipulate variables, facilitating arithmetic, logical, and relational operations. Control structures, including loops (for, while) and conditional statements (if, else), manage the flow of a program, enabling decision-making and repetition.</p>
+    <p>Arrays allow the storage of multiple values of the same type, while structures group diverse data types under a single entity. Functions contribute to code modularity and reusability by encapsulating specific functionalities. Pointers are essential for efficient memory manipulation, storing memory addresses and facilitating dynamic memory allocation.</p>
+    <p>Standard libraries enhance functionality by providing pre-built functions. Input/output functions like printf and scanf enable user interaction, while other libraries offer solutions for common tasks. C's simplicity, efficiency, and low-level control make it suitable for system programming, embedded systems, and developing other programming languages</p>
+    <p>C programming's significance lies in its role as the foundation for many languages. Its syntax and principles are integral to languages like C++, Java, and Python. The language's manual memory management and direct hardware access make it versatile for system-level programming, kernel development, and embedded systems. Despite its low-level nature, C continues to be relevant due to its efficiency and direct control over hardware, making it a valuable skill for software developers across various domains. Understanding C programming lays the groundwork for mastering more advanced languages and building a solid foundation in computer science.</p>
+  </div>
+
+  <div id="buttons-container">
+    <a href="content2"><button class="button" style="background-color: green; color: white; margin-left: 600px;" onclick="nextVideo()">Next</button></a>
+  </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#video-container {
+    position: relative;
+    width: 60%;
+    height: 550px;
+    margin: 0 auto;
+    background-color: #777;
+}
+
+#topic {
+      margin-left: 120px;
+}
+
+#description {
+    padding: 20px;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+#buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

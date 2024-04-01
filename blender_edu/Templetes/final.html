@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static '/css/final.css' %}">
+    
+  </style>
+  <script>
+    function redirectToHomePage() {
+      window.location.href = "home.html"; // Replace "home.html" with the actual home page URL
+    }
+  </script>
+  <title>Thanks for Joining</title>
+</head>
+<body>
+  <div class="thank-you-section">
+    <h1>Thanks for Joining with Us!</h1>
+    <div id="website-name"><span style="color: orange;">Blender</span><span style="color: green;">.edu</span></div>
+    <a href=" http://127.0.0.1:8000/">
+        <button class="welcome-button">Home</button>
+    </a>
+  </div>
+</body>
+</html>
+

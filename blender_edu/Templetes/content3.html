@@ -1,0 +1,54 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 3/5</title>
+  <link rel="stylesheet" href="{% static '/css/content_css.css' %}">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <div> <H1 style="color: orange;">Blender<span style="color: green;">.edu</span></H1></div>
+            </div>
+               
+        </div>    
+    </header>  
+    <div>
+        <center>
+            <h1>Lesson 3/5 </h1>
+        </center>
+    </div>
+
+  <div id="video-container">
+    <iframe width="850" height="550" src="https://www.youtube.com/embed/N9-FbTtFwH4?si=J2cGOSNiqz87iioz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  <div id="topic">
+    <h2 style="margin-top: 20px;">Arrays and Pointers in C Programming</h2>
+    
+  </div>
+  <div id="description">
+    <h4 style="margin-top: -10px;">Description:</h4> 
+  </div>
+  <div style="margin-left: 120px; margin-top: -45px; margin-right: 120px;">
+    <p>In C programming, an array is a fundamental data structure that allows the storage of multiple elements of the same data type under a single variable name. Arrays provide a systematic and efficient way to organize and access a collection of values, making them a cornerstone in various algorithms and data manipulation tasks.</p>
+    <p>An array is declared by specifying its data type and size, indicating the number of elements it can hold. Elements within the array are accessed using indices, starting from zero.Arrays facilitate the efficient handling of large sets of data, enhancing code readability and maintainability. They are particularly useful in scenarios where individual variables would be impractical or cumbersome.</p>
+    <p>Arrays in C can be one-dimensional, as shown above, or multi-dimensional for handling more complex data structures. A two-dimensional array, for instance, can be visualized as a table with rows and columns.</p>
+    <p>Dynamic memory allocation using pointers further extends the flexibility of arrays. By allocating memory at runtime, developers can create arrays whose size is determined during program execution, adapting to changing requirements.</p>
+    <p>The concept of arrays is integral to various programming tasks such as sorting, searching, and matrix manipulation. Loop structures, like "for" and "while," are often used in conjunction with arrays for efficient traversal and manipulation of elements.
+
+        Understanding arrays is essential for mastering C programming and forms the basis for more advanced data structures. The efficiency and simplicity of arrays make them a versatile tool in creating efficient, organized, and scalable programs.</p>
+  </div>
+
+  <div id="buttons-container">
+    <a href="content2"><button class="button" style="background-color: orange; color: white;" onclick="previousVideo()">Previous</button></a>
+    <a href="content4"><button class="button" style="background-color: green; color: white;" onclick="nextVideo()">Next</button></a>
+  </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static '/css/signin_css.css' %}">
+</head>
+<body>
+    <div class="signup-box">
+        <h1 style="margin-bottom: -8%; color: orange;"> Blender<span style="color: green;">.edu</span></h1>
+        <h1> Login </h1>
+        <form action="" method="post">
+            {% csrf_token %}
+            <label>Username</label>
+            <input type="text" name="username" required>
+            <label>Email</label>
+            <input type="email" name="email" required>
+            <label>Password</label>
+            <input type="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+        <p><a href="register">I don't have account</a></p>
+    </div>
+</body>
+</html>

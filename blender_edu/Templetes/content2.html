@@ -1,0 +1,52 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 2/5 </title>
+  <link rel="stylesheet" href="{% static '/css/content_css.css' %}">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <div> <H1 style="color: orange;">Blender<span style="color: green;">.edu</span></H1></div>
+            </div>
+               
+        </div>    
+    </header>  
+    <div>
+        <center>
+            <h1>Lesson 2/5 </h1>
+        </center>
+    </div>
+
+  <div id="video-container">
+    <iframe width="850" height="550" src="https://www.youtube.com/embed/BpeIfof3VBk?si=dwFy6uPLw8iMOdjJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  <div id="topic">
+    <h2 style="margin-top: 20px;">Loops in C Programming</h2>
+    
+  </div>
+  <div id="description">
+    <h4 style="margin-top: -10px;">Description:</h4> 
+  </div>
+  <div style="margin-left: 120px; margin-top: -45px; margin-right: 120px;">
+    <p>C programming features three primary loops: the "for" loop, "while" loop, and "do-while" loop</p>
+    <p>For Loop:The "for" loop is used for iterating a specific number of times. It comprises three components: initialization, condition, and an increment/decrement statement. The loop continues execution as long as the specified condition holds true, making it suitable for situations where the iteration count is known in advance.</p>
+    <p>While Loop:The "while" loop repeats a block of code as long as a given condition remains true. It is employed when the number of iterations is not predetermined or known beforehand. The loop checks the condition before each iteration, making it a flexible choice for various scenarios</p>
+    <p>Do-While Loop:The "do-while" loop guarantees that the enclosed code block executes at least once. It evaluates the condition after the first iteration, making it suitable for situations where the code must run at least once regardless of the initial condition's status. This loop structure is useful when the condition depends on the result of the first execution.</p>
+    <p>In summary, these loops provide control flow mechanisms, allowing developers to efficiently repeat or iterate code based on specified conditions. The choice of loop depends on the specific requirements of the program and the nature of the iterations needed. Understanding the nuances of each loop type is fundamental for effective and concise C programming.</p>
+  </div>
+
+  <div id="buttons-container">
+    <a href="content1"><button class="button" style="background-color: orange; color: white;" onclick="previousVideo()">Previous</button></a>
+    <a href="content3"><button class="button" style="background-color: green; color: white;" onclick="nextVideo()">Next</button></a>
+  </div>
+
+
+
+</body>
+</html>
