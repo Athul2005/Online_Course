@@ -55,7 +55,7 @@ ROOT_URLCONF = 'blender_edu.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templetes'],
+        'DIRS': ['Templetes'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
