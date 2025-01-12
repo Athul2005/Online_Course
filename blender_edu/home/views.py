@@ -65,7 +65,7 @@ def register(request):
     return render(request,'register.html')
 
 def intro_content(request):
-    return render(request,'intro_content.html')
+    return render(request,'Intro_Content.html')
 
 def content1(request):
     return render(request,'content1.html')
